@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include testnjyadu *.css
+recursive-include testnjyadu *.csv
+recursive-include testnjyadu *.html
+recursive-include testnjyadu *.ico
+recursive-include testnjyadu *.js
+recursive-include testnjyadu *.json
+recursive-include testnjyadu *.md
+recursive-include testnjyadu *.png
+recursive-include testnjyadu *.py
+recursive-include testnjyadu *.svg
+recursive-include testnjyadu *.txt
+recursive-exclude testnjyadu *.pyc
